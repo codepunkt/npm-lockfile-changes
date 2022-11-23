@@ -20,6 +20,7 @@ jobs:
     # Permission overwrite is required for Dependabot PRs, see "Common issues" below.
     permissions:
       pull-requests: write
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -67,6 +68,7 @@ jobs:
     #####
     permissions:
       pull-requests: write
+      contents: read
     #####
     steps: ...
 ```
